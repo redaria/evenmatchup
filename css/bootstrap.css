@@ -4,7 +4,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
- @font-face { font-family: Franklin Gothic Demi Cond; src: url('FRADMCN.ttf'); } 
+ @font-face { 
+ 	font-family: Franklin;
+ 	src: url('FRADMCN.ttf');
+ } 
  
 html {
 	font-family: "Lato", sans-serif;
@@ -1416,7 +1419,7 @@ a.bg-danger:focus {
   margin-bottom:5px;
   color: #4dd2ff;
   font-weight:700;
-  font-family:"Franklin Gothic Demi Cond", sans-serif;
+  font-family: "Franklin", sans-serif;
 }
 ul,
 ol {
