@@ -242,6 +242,7 @@ th {
   h2,
   h3 {
     page-break-after: avoid;
+    font-family: "Franklin Gothic Demi Cond", "Franklin", sans-serif;
   }
   .navbar {
     display: none;
