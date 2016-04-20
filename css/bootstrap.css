@@ -4,12 +4,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@font-face {
-    font-family: "Franklin Gothic Demi Cond";
-    src: url(css/FRADMCN.ttf) format("truetype");
-}
+ @font-face { font-family: "Franklin Gothic Demi Cond"; src: url('FRADMCN.ttf'); } 
+ 
 html {
-	font-family:"Franklin Gothic Demi Cond", sans-serif;
+	font-family: "Lato", sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -1086,7 +1084,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #4E4E4E;
@@ -1418,7 +1416,7 @@ a.bg-danger:focus {
   margin-bottom:5px;
   color: #4dd2ff;
   font-weight:700;
-  font-family:"Franklin Gothic Demi Cond", "Futura Std Condensed", sans-serif;
+  font-family:"Franklin Gothic Demi Cond", sans-serif;
 }
 ul,
 ol {
@@ -5996,7 +5994,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
@@ -6115,7 +6113,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
