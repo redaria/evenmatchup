@@ -5,8 +5,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @font-face { 
- 	font-family: "Franklin";
- 	src: url('FRADMCN.ttf');
+ 	font-family: Franklin;
+ 	src: url('FRADMCN.ttf') format('truetype');
 } 
  
 html {
@@ -1420,7 +1420,7 @@ a.bg-danger:focus {
   margin-bottom:5px;
   color: #4dd2ff;
   font-weight:700;
-  font-family: "Franklin Gotchi Demi Cond", "Franklin", sans-serif;
+  font-family:"Franklin Gothic Demi Cond", Franklin, "Futura Std Condensed", sans-serif
 }
 ul,
 ol {
