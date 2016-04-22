@@ -2,7 +2,7 @@
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE
- */
+ *
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @font-face { 
  	font-family: Franklin;
@@ -202,10 +202,6 @@ th {
     background: transparent !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -1109,7 +1105,6 @@ a {
 a:hover,
 a:focus {
   color: #2FA1E9;
-  text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -3428,7 +3423,6 @@ fieldset[disabled] .btn-link {
 .btn-link:hover,
 .btn-link:focus {
   color: #23527c;
-  text-decoration: underline;
   background-color: transparent;
 }
 .btn-link[disabled]:hover,
@@ -5032,14 +5026,11 @@ a.thumbnail.active {
   color: #333;
 }
 .alert {
-  padding: 15px;
-  margin-bottom: 20px;
+	padding-top:25px;
+	padding-bottom:3px;
+  margin-bottom: 5px;
   border: 1px solid transparent;
-  border-radius: 4px;
-}
-.alert h4 {
-  margin-top: 0;
-  color: inherit;
+  border-radius: 5px;
 }
 .alert .alert-link {
   font-weight: bold;
@@ -5057,6 +5048,7 @@ a.thumbnail.active {
 }
 .alert-dismissable .close,
 .alert-dismissible .close {
+	float: right;
   position: relative;
   top: -2px;
   right: -21px;
@@ -5075,8 +5067,7 @@ a.thumbnail.active {
 }
 .alert-info {
   color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
+  background-color: #CECEF6;
 }
 .alert-info hr {
   border-top-color: #a6e1ec;
@@ -5847,7 +5838,6 @@ button.list-group-item-danger.active:focus {
   border-radius: 3px;
 }
 .close {
-  float: right;
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
