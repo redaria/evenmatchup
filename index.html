@@ -312,7 +312,7 @@
       <div class="alert alert-dismissable alert-info fade in" style="position:fixed; top:75px; width:40%; left:30%" align="center">
             <a href="#twitch">
             <div class="container-fluid" data-dismiss="alert">
-                <h4 id="twitchAlert" style="color:#369 !important"> Twitch stream is live right now! </h4>
+                <h4 id="twitchAlert" style="color:#369 !important"> Twitch stream live today! </h4>
             </div>
             </a>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -327,11 +327,10 @@
 	<script>
 	if (new Date().getDay() != 3) {
 		if (new Date().getDay() != 4){
-			document.getElementById("twitchAlert").innerHTML = "Check out our past twitch broadcasts!";
+			if (new Date().getDay() != 6){
+				document.getElementById("twitchAlert").innerHTML = "Check out our past twitch broadcasts!";
+			}
 		}
-	}
-	else if (new Date().getDay() != 6) {
-			document.getElementById("twitchAlert2").innerHTML = "Check out our past twitch broadcasts!";
 	}
 	</script>
     <!-- twitch alert script end-->
